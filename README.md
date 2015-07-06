@@ -1,9 +1,9 @@
-# AntergosCinnamon
+# AntergosMate
 
-Antergos with the latest Cinnamon edition.
+Antergos with the latest Mate edition.
 
 
-This is my configuration for Cinnamon to be used on the Antergos distribution.
+This is my configuration for Mate to be used on the Antergos distribution.
 
 I wrote an installation document "read_me_installation_antergos_ base_vx" to cover some specific issues.
 
@@ -58,6 +58,8 @@ The goal is to be quickly up and running after a clean install.
 
 That's why I have written a script to do just that. 
 
+
+
 #1. Installation of the ANTERGOS system
 
 Download the iso and burn it on a cd or use an usb.
@@ -83,12 +85,13 @@ At the time of writing you can choose
 	- base installation (no DE)
 	- GNOME
 	- kde
-	- cinnamon
+	- Mate
 	- mate
 	- xfce4
 	- openbox
 
-This page is about installing Cinnamon.
+This page is about installing Mate.
+
 
 
 
@@ -99,7 +102,7 @@ I run an installation script to quickly  get all my software after the installat
 The idea is to download (if you have internet connection) the i3 github files :
 
 	sudo pacman -S git
-	git clone https://github.com/erikdubois/AntergosCinnamon
+	git clone https://github.com/erikdubois/AntergosMate
 
 This folder that you will download will give you all the installation scripts necessary to fully install the desktop.
 
@@ -111,7 +114,6 @@ The scripts have been numbered from 1 to 6. Follow the orderering to install all
 
 
     
-y
     ./1_install_packer_vx.sh
 
 This will install the program packer. It is a wrapper for yaourt which is already installed. Packer will serve as the aur helper from there on.
