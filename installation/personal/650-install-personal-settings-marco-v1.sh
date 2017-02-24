@@ -11,20 +11,14 @@ set -e
 #
 ##################################################################################################################
 
-[ -d $HOME"/.config/" ] || mkdir -p $HOME"/.config/"
 
 
-echo "Copy/pasting config"
+echo "Setting the marco preferences"
 
-cp settings/compton/marco-compton.conf ~/.config/
-cp settings/compton/metacity-compton.conf ~/.config/
+sh settings/marco/gsettings-marco.sh
 
 
-sudo pacman -S --needed --noconfirm metacity compton
-
-echo "Use mate-tweak to change window manager"
-echo "Gives no issues and is not dangerous"
 
 echo "################################################################"
-echo "#########       terminator config copied        ################"
+echo "#########       marco preferences done          ################"
 echo "################################################################"
