@@ -1,24 +1,26 @@
 [global_config]
-  title_transmit_bg_color = "#000000"
+  inactive_color_offset = 0.92
+  title_inactive_bg_color = "#2e3436"
+  title_inactive_fg_color = "#f3f3f3"
+  title_transmit_bg_color = "#babdb6"
 [keybindings]
-[profiles]
-  [[default]]
-    scrollbar_position = hidden
-    use_system_font = False
-    background_darkness = 0.63
-    background_type = transparent
-    background_image = None
-    scroll_on_output = False
-    icon_bell = False
-    show_titlebar = False
-    font = Droid Sans Mono 15
-    scrollback_infinite = True
 [layouts]
   [[default]]
     [[[child1]]]
-      type = Terminal
       parent = window0
+      type = Terminal
     [[[window0]]]
-      type = Window
       parent = ""
+      type = Window
 [plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.42
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    cursor_shape = underline
+    font = Mono 15
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
