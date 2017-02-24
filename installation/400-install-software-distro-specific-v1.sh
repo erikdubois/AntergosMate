@@ -29,6 +29,10 @@ sudo pacman -S noto-fonts --noconfirm --needed
 # extra extensions to compare files if needed install it
 # packer -S nemo-compare
 
+#utilities
+
+sudo pacman -S mate-tweak --noconfirm --needed
+
 echo "################################################################"
 echo "#########   distro specific software installed  ################"
 echo "################################################################"

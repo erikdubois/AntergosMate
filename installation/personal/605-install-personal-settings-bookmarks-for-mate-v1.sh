@@ -17,7 +17,7 @@ echo "#########          Installing bookmarks         ################"
 echo "################################################################"
 
 
-cp settings/bookmarks/bookmarks ~/.config/gtk-3.0/
+cp settings/bookmarks/.gtk-bookmarks ~
 
 
 echo "################################################################"

@@ -11,12 +11,14 @@ set -e
 #
 ##################################################################################################################
 
+# galculator-gtk2 is installed in mate
+
 #software from 'normal' repositories
 sudo pacman -S --noconfirm --needed archey3 baobab bleachbit catfish clementine conky curl
 sudo pacman -S --noconfirm --needed darktable dconf-editor
 sudo pacman -S --noconfirm --needed dmidecode 
 sudo pacman -S --noconfirm --needed evince evolution filezilla firefox
-sudo pacman -S --noconfirm --needed galculator geary gimp git gksu glances gnome-disk-utility 
+sudo pacman -S --noconfirm --needed geary gimp git gksu glances gnome-disk-utility 
 sudo pacman -S --noconfirm --needed gnome-font-viewer gnome-screenshot gnome-system-monitor gnome-terminal gnome-tweak-tool 
 sudo pacman -S --noconfirm --needed gparted gpick grsync
 sudo pacman -S --noconfirm --needed hardinfo hddtemp hexchat htop 
