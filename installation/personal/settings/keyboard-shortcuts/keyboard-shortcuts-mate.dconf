@@ -23,6 +23,11 @@ action='variety -f'
 binding='<Alt>f'
 name='wallpaper favorite'
 
+[custom5]
+action='mate-terminal'
+binding='<Primary><Alt>t'
+name='mate-termminal'
+
 [custom11]
 action='nemo'
 binding='<Primary><Alt>b'
