@@ -193,7 +193,7 @@ use the git clone command
 # Youtube Resources Antergos Mate
 
 
-https://www.youtube.com/playlist?list=PLlloYVGq5pS7Tb7PZ5eVkEWGj9UimJ5x6
+https://www.youtube.com/playlist?list=PLlloYVGq5pS4Oqc-Boxky96pi6v-P5Nwz
 
 
 # Youtube Resources all Antergos
