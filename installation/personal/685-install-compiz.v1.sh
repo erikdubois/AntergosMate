@@ -116,6 +116,8 @@ fi
 
 echo "Use mate-tweak to change window manager"
 
+echo "Use arc and arc-dark as window border"
+
 echo "################################################################"
 echo "#########       terminator config copied        ################"
 echo "################################################################"
